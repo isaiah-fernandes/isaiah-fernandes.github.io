@@ -867,6 +867,9 @@ main {
   border-radius: inherit;
 }
 
+.mech-temp {
+	display: block !important;
+}
 
 
 
