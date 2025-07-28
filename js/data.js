@@ -47,18 +47,18 @@ const experiences = [
         
         tags: [
             "✨ AWS",
-            "✨ Bedrock",
-            "✨ Lambda",
+            "✨ AWS Bedrock",
+            "✨ AWS Lambda",
             "✨ Python",
-            "✨ Sagamaker",
-            "✨ RDS"
+            "✨ AWS Sagamaker",
+            "✨ AWS RDS"
         ]
     },
     {
         type: "experience",
-        link: "https://arm.com",
-        period: "May 2023 - Aug 2023",
-        title: "Software Engineer Intern at ARM",
+        link: "https://barnettenterprisegroup.com/",
+        period: "May 2025 - June 2025",
+        title: "Data Engineer at Barnett Enterprise Group",
         description:
             "Worked on automating AWS pipeline, by managing AMIs updates, " +
             "EC2 instances, and EBS Volumes. Accomplished automation of " +
@@ -75,68 +75,60 @@ const experiences = [
     },
     {
         type: "experience",
-        link: "https://aws.amazon.com/",
-        period: "May 2020 - Jun 2022",
-        title: "Cloud Support Engineer at AWS",
+        link: "https://engineering.tamu.edu/mtde/index.html",
+        period: "Nov 2024 - May 2025",
+        title: "Subsea Processing Engineering Analyst at Texas A&M ",
         description:
-            "Applied advanced troubleshooting techniques to provide unique " +
-            "solutions to AWS customers. Drove multiple projects to improve " +
-            "internal support-related processes and overall customer " +
-            "experience. Worked on critical, highly complex customer " +
-            "problems that spanned throughout multiple AWS services.",
+            "ALead research initiatives to advance subsea processing, boosting, flowline operability, and production operations through experiments and simulations " +
+            "Using engineering-specific tools and methodologies for research and reports.   " +
+            "Collaborated with teams to draft research proposals, technical reports, ensuring data collection and interpretation to publish findings while conducting literature reviews to align objectives with innovative solutions.   " ,
         tags: [
-            "✨ AWS Lambda",
-            "✨ AWS API Gateway",
-            "✨ SNS/SQS",
-            "EC2",
-            "S3",
-            "VPC",
-            "Javascript",
-            "Python"
+            "✨ OLGA",
+            "✨ Orca Flex",
+            "✨ ANSYS",
+            "✨ Fusion 360",
         ]
     },
     {
         type: "experience",
-        link: "https://www.esurance.com/",
-        period: "Aug 2019 - May 2020",
-        title: "Software Engineer at Esurance",
+        link: "",
+        period: "Aug 2020 - May 2021",
+        title: "Co-Head of Sponsorship - Madgear Motorsports ",
         description:
-            "Designed, enhanced, and maintained APIs for integration with " +
-            "existing Esurance applications.",
+            "Collaborated in designing, fabricating, and testing an off-road vehicle for SAE BAJA INDIA using SOLIDWORKS and ANSYS. " +
+            "Optimizing reliability and performance like 10% weight reduction done through in-house fabrication and testing.   " +
+            "Secured financial funding and material support by fundraising and sponsorships by building relationships with industries. " +
+            "Oversaw finance, ensuring smooth team operations and adherence to timelines while fostering industry partnerships. ",
         tags: [
-            "✨ Java",
-            "✨ JUnit",
-            "✨ Splunk",
-            "CI/CD",
-            "MongoDB"
+            "✨ DS - SOLIDWORKS  ",
+            "✨ Ansys",
+            "✨ Fusion 360",
         ]
     },
     {
         type: "experience",
-        link: "https://www.vsp.com/",
-        period: "Jun 2018 - May 2019",
-        title: "Software Engineer Intern at VSP Vision Care",
+        link: "",
+        period: "JAug 2019 - May 2020",
+        title: "Co-Head of Informal Events - DBIT Event (Colosseum)",
         description:
-            "Developed and executed selenium, smoke, and regression tests " +
-            "on the staging environment. Performed functional tests on four " +
-            "different web portal applications.",
+            "Led strategic planning, resource management, and coordinating teams, overseeing procurement, logistics, and approvals while managing a team of 30 across multiple groups using Gantt charts to track progress, allocate budgets, and meet deadlines.  " +
+            "Synchronized cross-departmental efforts, resolved real-time issues, and handled negotiations for deliverables.   " +
+            "Conducted risk assessments, contingency planning, to ensure client satisfaction and drive process improvements based on feedback analysis.  " ,
         tags: [
-            "✨ Java",
-            "✨ Scrum",
-            "QA",
+            "✨ MS - Projects",
         ]
     },
     {
-        type: "experience",
-        link: "https://www.vsp.com/",
-        period: "Aug 2017 - May 2019",
-        title: "Teaching Assistant at Sac State",
-        description:
-            "Helped, guided, and graded students' assignments and answered " +
-            "questions during online discussions.",
-        tags: [
-            "✨ Advanced Computer 3D Graphics",
-        ]
+//        type: "experience",
+//        link: "https://www.vsp.com/",
+//        period: "Aug 2017 - May 2019",
+//        title: "Teaching Assistant at Sac State",
+//        description:
+//            "Helped, guided, and graded students' assignments and answered " +
+//            "questions during online discussions.",
+//        tags: [
+//            "✨ Advanced Computer 3D Graphics",
+//        ]
     }
 ];
 
