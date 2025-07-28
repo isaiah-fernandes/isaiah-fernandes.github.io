@@ -49,7 +49,7 @@ body {
 
 .fancy-number {
     color: var(--accent-color);
-    font-size: 1.3rem;
+    font-size: 7rem;
     font-weight: bold;
     text-shadow: 0 0 8px var(--accent-color);
     animation: pulse 1.5s infinite alternate;
