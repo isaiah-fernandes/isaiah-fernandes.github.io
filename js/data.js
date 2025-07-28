@@ -118,7 +118,7 @@ const experiences = [
             "✨ MS - Projects",
         ]
     },
-    {
+//    {
 //        type: "experience",
 //        link: "https://www.vsp.com/",
 //        period: "Aug 2017 - May 2019",
@@ -129,7 +129,7 @@ const experiences = [
 //        tags: [
 //            "✨ Advanced Computer 3D Graphics",
 //        ]
-    }
+//    }
 ];
 
 // Project data
@@ -382,20 +382,20 @@ const educations = [
         type: "education",
         link:
             "https://tamu.edu",
-        period: "Aug 2022 - Dec 2023",
-        title: "Master's in Computer Science",
+        period: "Aug 2022 - May 2024",
+        title: "Texas A&M University - College Station",
         description:
-            "Studied Computer Science at Texas A&M University - College Station",
+            "Master of Engineering with a specilization in Subsea oil and Gas Engineering.",
         tags: []
     },
     {
         type: "education",
         link:
-            "https://csus.edu",
-        period: "Jan 2015 - May 2019",
-        title: "Bachelor's of Science in Computer Science",
+            "https://mum.digitaluniversity.ac/",
+        period: "Aug 2017 - May 2021",
+        title: "Mumbai University",
         description:
-            "Studied Computer Science at California State University - Sacramento",
+            "Bachelor of Engineering - Mechanical Engineering.",
         tags: []
     },
 ]
