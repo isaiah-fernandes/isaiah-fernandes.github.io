@@ -3,40 +3,32 @@
 // Personal and site-wide data
 const siteData = {
     name: "Isaiah Fernandes",
-    jobTitle: "Mechanical/Data/ Engineer",
+    jobTitle: "Mechanical Engineer",
+    exp: "Experienced in Subsea | Data | Pipeline Engineering",
+    sp: "Specializing in Oil and Gas",
     taglines: [
-        "I code.",
+        "I build.",
         "I design.",
-        "I innovate."
+        "I innovate.",
+        "I solve problems."
     ],
     about: [
-        `I am a passionate software engineer with a knack for solving ` +
-        `complex problems and crafting creative solutions. With a ` +
-        `Masters degree in Computer Science from Texas A&M University, ` +
-        `I have built a strong foundation in software engineering, ` +
-        `cloud computing, and automation. My career spans ` +
-        `industry-leading companies like AWS and ARM, where I have ` +
-        `worked on high-impact projects in cloud infrastructure, ` +
-        `performance optimization, and CI/CD automation.`,
+        "Howdy! I'm Isaiah, a guy who gets the job done.",
 
-        `At AWS, I gained hands-on experience working on scalable, ` +
-        `distributed systems and troubleshooting intricate cloud ` +
-        `infrastructure challenges. Now, at ARM, I focus on ` +
-        `optimizing cloud architectures, automating workflows, and ` +
-        `enhancing system performance to push the limits of efficiency.`,
+        "Coming from a background of Mechanical Engineer. My experience spans oil and gas processing, multiphase boosting, field operations, and pipeline engineering backed by research that will contribute to improving oil production rates by up to 20%. As published, my work—centered around my specialization in process optimization and efficiency improvement—focuses on enhancing oil and gas production.",
 
-        `I have deep expertise in AWS, Python, Java, and Groovy, which ` +
-        `I leverage to streamline CI/CD pipelines, enhance automation ` +
-        `frameworks, and improve cloud performance. Whether it’s ` +
-        `designing AI-powered solutions, automating large-scale ` +
-        `infrastructure, or debugging mission-critical systems, I ` +
-        `thrive on tackling difficult puzzles that push the boundaries ` +
-        `of technology.`
+        "I have worked across project design, simulation, execution (Pre-FEED & FEED) particularly in upstream and midstream environments. I bring hands-on knowledge of engineering software (CFD, FEA and AutoCAD) and a proven ability to support both detailed engineering and field execution.",
+
+        "Worked on AWS service platforms for machine learning and data engineering for process optimization and computing. I have experience deploying AI solutions, in cooperating machine learning technologies to meet engineering problem statements like predictive maintenance and anomaly detection.",
+
+        "Let us connect if you are looking for a go-getter engineer passionate about delivering technically reliable, cost-effective solutions for the oil and gas industry.",
+
+        "Also Did I mention I'm an Aggie Engineer!"
     ],
     socialLinks: {
-        github: "https://github.com/ajinkyamalhotra",
-        linkedin: "https://www.linkedin.com/in/ajinkyamalhotra",
-        email: "mailto:ajinkyamalhotra73@gmail.com"
+        github: "https://github.com/isaiah-fernandes",
+        linkedin: "https://www.linkedin.com/in/fernandes-isaiah/",
+        email: "mailto:isaiahfernandes0777@gmail.com"
     }
 };
 
@@ -44,20 +36,21 @@ const siteData = {
 const experiences = [
     {
         type: "experience",
-        link: "https://arm.com",
-        period: "Jan 2024 - Present",
-        title: "Software Engineer at ARM",
+        link: "hhttps://resolvetech.com/",
+        period: "June 2025 - Present",
+        title: "AI ML Engineer at RTS",
         description:
-            "Working on Performance Models Productization team which " +
-            "handles external releases to various partners. Optimizing " +
-            "AWS infrastructure using various tools.",
+            "Collaborated with RTS to develop and deploy AI solutions, in cooperating Machine Learning to address engineering problems.  " +
+            "Applying machine learning models to real-world databases, streamlining, and optimizing system operational workflows.  " +
+            "Designed projects integrating AI into engineering tasks, enabling predictive analytics, automation in systems. " +
+            "Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches. ."
         tags: [
             "✨ AWS",
-            "✨ Jenkins",
-            "✨ Groovy",
+            "✨ Bedrock",
+            "✨ Lambda",
             "✨ Python",
-            "Bash",
-            "✨ Git"
+            "✨ Sagamaker",
+            "✨ RDS"
         ]
     },
     {
