@@ -43,7 +43,8 @@ const experiences = [
             "Collaborated with RTS to develop and deploy AI solutions, in cooperating Machine Learning to address engineering problems.  " +
             "Applying machine learning models to real-world databases, streamlining, and optimizing system operational workflows.  " +
             "Designed projects integrating AI into engineering tasks, enabling predictive analytics, automation in systems. " +
-            "Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches. ."
+            "Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches. .",
+        
         tags: [
             "✨ AWS",
             "✨ Bedrock",
