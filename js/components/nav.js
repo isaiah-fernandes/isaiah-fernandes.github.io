@@ -200,7 +200,7 @@ export function renderSidebar() {
         ReferenceLink.target = "_blank";
         ReferenceLink.setAttribute("aria-label", "ReferenceLink");
         ReferenceLink.setAttribute("title", "View ReferenceLink");
-        ReferenceLink.innerHTML = `<i class="fas fa-file-alt"></i> ReferenceLink`;
+        ReferenceLink.innerHTML = `<i class="fas fa-file-alt"></i> References`;
         nav.appendChild(ReferenceLink);
 
         aside.appendChild(nav);
