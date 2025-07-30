@@ -4,7 +4,7 @@
 const siteData = {
     name: "Isaiah Fernandes",
     jobTitle: "Mechanical Engineer",
-    exp: "Experienced in Subsea | Data | Pipeline Engineering",
+    exp: "",
     sp: "Specializing in Oil and Gas",
     taglines: [
         "I build.",
