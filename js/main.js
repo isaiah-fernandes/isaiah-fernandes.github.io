@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     app.appendChild(appContent);
     const siteNameEl = document.getElementById("siteName");
     const jobTitleEl = document.getElementById("jobTitle");
-    const expE1 = document.getE1ementById("exp");
+    const expE1 = document.getElementById("exp");
     const taglineEl = document.getElementById("tagline");
     const aboutEl = document.getElementById("aboutContent");
     const socialContainerEl = document.getElementById("socialContainer");
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.timelineData = timelineData;
 
     // Start populating/rendering website UI elements.
-    populateInfo(siteNameEl, jobTitleEl, taglineEl, siteData, aboutEl);
+    populateInfo(siteNameEl, jobTitleEl, expE1, taglineEl, siteData, aboutEl);
     populateSocialLinks(socialContainerEl, siteData.socialLinks);
     renderExperiences(expContainer, experiences);
     renderProjects(projContainer, projects);

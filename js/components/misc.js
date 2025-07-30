@@ -19,7 +19,7 @@ export function populateSocialLinks(socialContainer, socialLinks) {
   });
 }
 
-export function populateInfo(siteNameEl, jobTitleEl, taglineEl, siteData,
+export function populateInfo(siteNameEl, jobTitleEl, expE1, taglineEl, siteData,
   aboutEl
 ) {
   logAction(`${populateInfo.name}()`, () => {
