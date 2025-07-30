@@ -23,7 +23,7 @@ const siteData = {
     about: [
         "                       HOWDY                      ",
         
-        "I'm Isaiah and I'm your guy if you want to get the job done.",
+        "I'm Isaiah and I'm your guy if you want to get stuff done.",
 
         "Coming from a background of Mechanical Engineer. My experience spans oil and gas processing, multiphase boosting, field operations, and pipeline engineering backed by research that will contribute to improving oil production rates by up to 20%. As published, my work—centered around my specialization in process optimization and efficiency improvement—focuses on enhancing oil and gas production.",
 
@@ -40,7 +40,7 @@ const siteData = {
         linkedin: "https://www.linkedin.com/in/fernandes-isaiah/",
         email: "mailto:isaiahfernandes0777@gmail.com"
     }
-};
+};``
 
 // Experience data
 const experiences = [
@@ -141,6 +141,9 @@ const experiences = [
 //        ]
 //    }
 ];
+
+
+
 
 // Project data
 const projects = [
