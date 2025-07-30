@@ -11,17 +11,17 @@ const siteData = {
         "I design.",
         "I innovate.",
         "I solve problems.",
-        "I optimize",
-        "I enhance",
-        "I improve",
-        "I plan",
-        "I collaborate",
-        "I reimagine",
-        "I upgrade",
-        "I engineer"
+        "I optimize.",
+        "I enhance.",
+        "I improve.",
+        "I plan.",
+        "I collaborate.",
+        "I reimagine.",
+        "I upgrade.",
+        "I engineer."
     ],
     about: [
-        "|------------------HOWDY--------------------|",
+        "                       HOWDY                      ",
         
         "I'm Isaiah and I'm your guy if you want to get the job done.",
 
