@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     app.appendChild(appContent);
     const siteNameEl = document.getElementById("siteName");
     const jobTitleEl = document.getElementById("jobTitle");
-    const expE1 = document.getE1ElementById("exp")
+    const expE1 = document.getE1ementById("exp")
     const taglineEl = document.getElementById("tagline");
     const aboutEl = document.getElementById("aboutContent");
     const socialContainerEl = document.getElementById("socialContainer");
