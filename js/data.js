@@ -46,7 +46,7 @@ const siteData = {
 const experiences = [
     {
         type: "experience",
-        link: "hhttps://resolvetech.com/",
+        link: "https://resolvetech.com/",
         period: "June 2025 - Present",
         title: "AI ML Engineer at RTS",
         description:
@@ -118,7 +118,7 @@ const experiences = [
     {
         type: "experience",
         link: "",
-        period: "JAug 2019 - May 2020",
+        period: "Aug 2019 - May 2020",
         title: "Co-Head of Informal Events - DBIT Event (Colosseum)",
         description:
             "Led strategic planning, resource management, and coordinating teams, overseeing procurement, logistics, and approvals while managing a team of 30 across multiple groups using Gantt charts to track progress, allocate budgets, and meet deadlines.  " +
