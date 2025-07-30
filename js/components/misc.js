@@ -25,6 +25,7 @@ export function populateInfo(siteNameEl, jobTitleEl, taglineEl, siteData,
   logAction(`${populateInfo.name}()`, () => {
     siteNameEl.textContent = siteData.name;
     jobTitleEl.textContent = siteData.jobTitle;
+    expE1.textContent = siteData.exp;
 
     // If siteData.taglines exists and is an array, start the typewriter effect
     if (Array.isArray(siteData.taglines) && siteData.taglines.length > 1) {

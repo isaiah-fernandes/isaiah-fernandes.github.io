@@ -118,6 +118,11 @@ export function renderSidebar() {
         jobTitle.className = "mb-4 text-2xl font-bold text-gray-300";
         header.appendChild(jobTitle);
 
+        const exp = document.createElement("p");
+        exp.id = "exp";
+        exp.className = "mb-4 text-2xl font-bold text-gray-300";
+        header.appendChild(exp);
+
         const tagline = document.createElement("p");
         tagline.id = "tagline";
         tagline.className = "tagline mb-2 text-2xl font-normal italic min-h-[2.5rem] truncate";
