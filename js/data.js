@@ -21,7 +21,7 @@ const siteData = {
         "I engineer"
     ],
     about: [
-        "|--------------HOWDY----------------|",
+        "|------------------HOWDY--------------------|",
         
         "I'm Isaiah and I'm your guy if you want to get the job done.",
 
