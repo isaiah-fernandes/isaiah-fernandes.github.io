@@ -181,6 +181,28 @@ export function renderSidebar() {
         resumeLink.innerHTML = `<i class="fas fa-file-alt"></i> Resume`;
         nav.appendChild(resumeLink);
 
+        // Coverletter Link
+        const coverletterLink = document.createElement("a");
+        coverletterLink.className = "nav-button";
+        coverletterLink.id = "btn-coverletter";
+        coverletterLink.href = "coverletter.pdf";
+        coverletterLink.target = "_blank";
+        coverletterLink.setAttribute("aria-label", "coverletter");
+        coverletterLink.setAttribute("title", "View coverletter");
+        coverletterLink.innerHTML = `<i class="fas fa-file-alt"></i> coverletter`;
+        nav.appendChild(coverletterLink);
+
+        // References Link
+        const ReferenceLink = document.createElement("a");
+        ReferenceLink.className = "nav-button";
+        ReferenceLink.id = "btn-Reference";
+        ReferenceLink.href = "Reference.pdf";
+        ReferenceLink.target = "_blank";
+        ReferenceLink.setAttribute("aria-label", "ReferenceLink");
+        ReferenceLink.setAttribute("title", "View ReferenceLink");
+        ReferenceLink.innerHTML = `<i class="fas fa-file-alt"></i> ReferenceLink`;
+        nav.appendChild(ReferenceLink);
+
         aside.appendChild(nav);
 
         // Social Icons Container
