@@ -21,7 +21,9 @@ const siteData = {
         "I engineer"
     ],
     about: [
-        "Howdy! I'm Isaiah and I'm your guy if you want to get the job done.",
+        "|--------------HOWDY----------------|",
+        
+        "I'm Isaiah and I'm your guy if you want to get the job done.",
 
         "Coming from a background of Mechanical Engineer. My experience spans oil and gas processing, multiphase boosting, field operations, and pipeline engineering backed by research that will contribute to improving oil production rates by up to 20%. As published, my work—centered around my specialization in process optimization and efficiency improvement—focuses on enhancing oil and gas production.",
 
