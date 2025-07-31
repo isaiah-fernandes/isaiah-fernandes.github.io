@@ -66,9 +66,10 @@ export function createCard(item) {
 }
 
 
-export function initCardSearch(expSearchInput, projSearchInput, experiences,
+export function initCardSearch(expSearchInput, projSearchInput, experiences, 
   projects, expContainer, projContainer) {
   logAction(`${initCardSearch.name}()`, () => {
+    
     // Experience card filtering
     expSearchInput.addEventListener("input", function (e) {
       const query = e.target.value.toLowerCase();

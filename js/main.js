@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initialize features
     initBackToTop(backToTopContainer, backToTop, rightSection);
-    initCardSearch(expSearchInput, projSearchInput, experiences,
+    initCardSearch(expSearchInput, projSearchInput, experiences, 
       projects, expContainer, projContainer);
     initContentSearch(
       { searchContainer, searchIcon, searchBox, contentDiv, matchCounter });

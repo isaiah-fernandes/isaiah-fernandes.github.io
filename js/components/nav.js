@@ -189,7 +189,7 @@ export function renderSidebar() {
         coverletterLink.target = "_blank";
         coverletterLink.setAttribute("aria-label", "coverletter");
         coverletterLink.setAttribute("title", "View coverletter");
-        coverletterLink.innerHTML = `<i class="fas fa-file-alt"></i> coverletter`;
+        coverletterLink.innerHTML = `<i class="fas fa-file-alt"></i> Cover letter`;
         nav.appendChild(coverletterLink);
 
         // References Link
