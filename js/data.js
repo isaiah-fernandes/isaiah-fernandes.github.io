@@ -26,7 +26,7 @@ const siteData = {
 
         "I’m someone who’s curious, creative, and always learning or exploring something new. With a passion for optimizing things, I’m always down to learn and try new things. This space is where I share a bit of what I do, what I have done, what I'm working on, and things that inspire me. Feel free to poke around!",
 
-        "I’m just a person trying to make sense of the world through engineering: by building, experimenting, and occasionally breaking things (on purpose or by accident, depends on the day). This site is a mix of experiments, projects, and thoughts. I enjoy taking on projects, solving problems, and picking up new things all while i figure out how stuff works. I the kind of guy who would figure things out as we go about the project. ",
+        "I’m just a person trying to make sense of the world through engineering: by building, experimenting, and occasionally breaking things. This site is a mix of experiments, projects, and thoughts. I enjoy taking on projects, solving problems, and picking up new things all while i figure out how stuff works. I the kind of guy who would figure things out as we go about the project. ",
 
         "I believe engineering is a means to an end. My goal is the end. So I guess, whatever it takes to get the job done. I also believe in hard work and always caughing up with technology with ever-ongoing learning to get there.",
 
