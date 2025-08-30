@@ -189,16 +189,16 @@ export function renderSidebar() {
         resumeLink.innerHTML = `<i class="fas fa-file-alt"></i> Resume`;
         nav.appendChild(resumeLink);
 
-        // Coverletter Link
-        const coverletterLink = document.createElement("a");
-        coverletterLink.className = "nav-button";
-        coverletterLink.id = "btn-coverletter";
-        coverletterLink.href = "coverletter.pdf";
-        coverletterLink.target = "_blank";
-        coverletterLink.setAttribute("aria-label", "coverletter");
-        coverletterLink.setAttribute("title", "View coverletter");
-        coverletterLink.innerHTML = `<i class="fas fa-file-alt"></i> Cover letter`;
-        nav.appendChild(coverletterLink);
+        // // Coverletter Link
+        // const coverletterLink = document.createElement("a");
+        // coverletterLink.className = "nav-button";
+        // coverletterLink.id = "btn-coverletter";
+        // coverletterLink.href = "coverletter.pdf";
+        // coverletterLink.target = "_blank";
+        // coverletterLink.setAttribute("aria-label", "coverletter");
+        // coverletterLink.setAttribute("title", "View coverletter");
+        // coverletterLink.innerHTML = `<i class="fas fa-file-alt"></i> Cover letter`;
+        // nav.appendChild(coverletterLink);
 
         // References Link
         const ReferenceLink = document.createElement("a");
