@@ -224,17 +224,14 @@ const publications = [
     {
         type: "publication",
         link:
-            "",
-        period: "July 2025 - Sept 2025",
-        title: "Financial Data Reporting Automation",
+            "https://doi.org/10.4043/35905-MS",
+        period: "May 2025",
+        title: "OnePetro OTC-35905-MS ",
         description:
-            "Developed AI agents to generate, verify, compile data, increase accuracy, eliminating review, and automated fiscal quarters data workflows.",
+            "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks Using Subsea Multiphase Pumping: To Evaluate the production optimization of tiebacks using multiphase pumps and to analyze the added production of oil beyond the natural production.",
         tags: [
-            "Machine Learning",
-            "Agentic AI",
-            "Project leading",
-            "✨ Python",
-            "✨ AWS",
+            "✨Lead Author",
+            "✨Presentor"
         ]
     }
 ]
@@ -244,16 +241,13 @@ const awards = [
         type: "award",
         link:
             "",
-        period: "July 2025 - Sept 2025",
-        title: "Financial Data Reporting Automation",
+        period: "Dec 2020",
+        title: "Developing Engineering Innovations",
         description:
-            "Developed AI agents to generate, verify, compile data, increase accuracy, eliminating review, and automated fiscal quarters data workflows.",
+            "Achieved 2nd place in a Smart City Innovation Competition organized by the Entrepreneurship Development & Engineering Department for the design and implementation of a Porthole Detection and Automated Filling System.",
         tags: [
-            "Machine Learning",
-            "Agentic AI",
-            "Project leading",
-            "✨ Python",
-            "✨ AWS",
+            "✨Certificate of Merit",
+            "✨Ranked #2"
         ]
     }
 ]
