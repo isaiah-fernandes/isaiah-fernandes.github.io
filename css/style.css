@@ -24,12 +24,12 @@
 
 /* Light mode global overrides */
 body.light {
-    background-color: #e3f2fd;
-    color: #000000;
+    background-color: rgb(213,184,147);
+    color: #3171a2;
 }
 
 body.light .card {
-    background: rgba(49, 130, 206, 0.1);
+    background: rgba(111, 77, 56, 0.1);
 }
 
 body.light .nav-button {

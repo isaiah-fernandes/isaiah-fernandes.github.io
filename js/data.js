@@ -55,7 +55,7 @@ const experiences = [
             "Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches. .",
         
         tags: [
-            "✨ AWSsffsfsfsfsfsfsfsfsfsfsfsffsfsfsfsfsfsfsfsfsff",
+            "✨ AWS Services",
             "✨ AWS Bedrock",
             "✨ AWS Lambda",
             "✨ Python",
@@ -219,6 +219,44 @@ const projects = [
         tags: [""]
     }
 ];
+
+const publications = [
+    {
+        type: "publication",
+        link:
+            "",
+        period: "July 2025 - Sept 2025",
+        title: "Financial Data Reporting Automation",
+        description:
+            "Developed AI agents to generate, verify, compile data, increase accuracy, eliminating review, and automated fiscal quarters data workflows.",
+        tags: [
+            "Machine Learning",
+            "Agentic AI",
+            "Project leading",
+            "✨ Python",
+            "✨ AWS",
+        ]
+    }
+]
+
+const awards = [
+    {
+        type: "award",
+        link:
+            "",
+        period: "July 2025 - Sept 2025",
+        title: "Financial Data Reporting Automation",
+        description:
+            "Developed AI agents to generate, verify, compile data, increase accuracy, eliminating review, and automated fiscal quarters data workflows.",
+        tags: [
+            "Machine Learning",
+            "Agentic AI",
+            "Project leading",
+            "✨ Python",
+            "✨ AWS",
+        ]
+    }
+]
 
 const skills = [
     {

@@ -28,6 +28,24 @@ export function renderProjects(container, data) {
     });
 }
 
+export function renderPublications(container, data) {
+    logAction(`${renderPublications.name}()`, () => {
+        container.innerHTML = "";
+        data.forEach(item => {
+            container.insertAdjacentHTML("beforeend", createCard(item));
+        });
+    });
+}
+
+export function renderAwards(container, data) {
+    logAction(`${renderAwards.name}()`, () => {
+        container.innerHTML = "";
+        data.forEach(item => {
+            container.insertAdjacentHTML("beforeend", createCard(item));
+        });
+    });
+}
+
 export function renderEducations(container, data) {
     logAction(`${renderEducations.name}()`, () => {
         container.innerHTML = "";
@@ -77,7 +95,7 @@ export function renderApp() {
         const innerContainer = document.createElement("div");
         innerContainer.appendChild(spotlight);
         innerContainer.id = "mainContainer";
-        innerContainer.className = "w-full max-w-7xl h-full " +
+        innerContainer.className = "w-full max-w-[88rem] h-full " +
             "rounded-lg flex overflow-hidden gap-4";
 
         // Append sidebar and main content

@@ -2,7 +2,7 @@ import {
   logAction, getUnfinishedTasks, getUnfinishedTaskCount
 } from "./logger.js";
 import {
-  renderExperiences, renderProjects, renderSkills, renderTimeline,
+  renderExperiences, renderProjects, renderPublications, renderAwards, renderSkills, renderTimeline,
   renderEducations, renderApp
 } from "./render/render.js";
 import { initTheme } from "./theme/theme.js";
@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const socialContainerEl = document.getElementById("socialContainer");
     const expContainer = document.getElementById("experienceContainer");
     const projContainer = document.getElementById("projectsContainer");
+    const pubContainer = document.getElementById("publicationsContainer");
+    const awaContainer = document.getElementById("awardsContainer");
     const skillsContainer = document.getElementById("skillsContainer");
     const eduContainer = document.getElementById("eduContainer");
     const preloader = document.getElementById("preloader");
@@ -45,6 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchBox = document.getElementById("searchBox");
     const expSearchInput = document.getElementById("experienceSearch");
     const projSearchInput = document.getElementById("projectSearch");
+    const pubSearchInput = document.getElementById("publicationSearch");
+    const awaSearchInput = document.getElementById("awardSearch");
     const contentDiv = document.querySelector(".content");
     const matchCounter = document.getElementById("matchCounter");
     const timelineContainer = document.getElementById("timelineContainer");
@@ -62,6 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
     populateSocialLinks(socialContainerEl, siteData.socialLinks);
     renderExperiences(expContainer, experiences);
     renderProjects(projContainer, projects);
+    renderPublications(pubContainer, publications);
+    renderAwards(awaContainer, awards);
     renderEducations(eduContainer, educations);
     renderSkills(skills, skillsContainer);
     renderTimeline(timelineContainer, window.timelineData);
@@ -82,8 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initialize features
     initBackToTop(backToTopContainer, backToTop, rightSection);
-    initCardSearch(expSearchInput, projSearchInput, experiences, 
-      projects, expContainer, projContainer);
+    initCardSearch(expSearchInput, projSearchInput, pubSearchInput, awaSearchInput, experiences, 
+      projects, publications, awards, expContainer, projContainer, pubContainer, awaContainer);
     initContentSearch(
       { searchContainer, searchIcon, searchBox, contentDiv, matchCounter });
     initNav(rightSection);

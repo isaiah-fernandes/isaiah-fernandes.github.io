@@ -1,4 +1,4 @@
-import { renderExperiences, renderProjects } from "../render/render.js";
+import { renderExperiences, renderProjects, renderPublications, renderAwards} from "../render/render.js";
 import {
   logAction
 } from "../logger.js";
@@ -17,7 +17,7 @@ const arrowIcon = `
 function getMarkerIcon(type) {
   const icons = {
     experience: '<i class="fas fa-briefcase"></i>',
-    project: '<i class="fas fa-code"></i>',
+    project: '<i class="fas fa-tools"></i>',
     education: '<i class="fas fa-graduation-cap"></i>'
   };
   return icons[type] || "";
@@ -66,8 +66,8 @@ export function createCard(item) {
 }
 
 
-export function initCardSearch(expSearchInput, projSearchInput, experiences, 
-  projects, expContainer, projContainer) {
+export function initCardSearch(expSearchInput, projSearchInput, pubSearchInput, awaSearchInput, experiences, 
+  projects, publications, awards, expContainer, projContainer, pubContainer, awaContainer) {
   logAction(`${initCardSearch.name}()`, () => {
     
     // Experience card filtering
@@ -98,5 +98,32 @@ export function initCardSearch(expSearchInput, projSearchInput, experiences,
       // Call render function with the container and filtered data
       renderProjects(projContainer, filteredProjects);
     });
+
+    // Publication card filtering
+    pubSearchInput.addEventListener("input", function (e) {
+      const query = e.target.value.toLowerCase();
+      const filteredPublications = publications.filter(pub =>
+        pub.title.toLowerCase().includes(query) ||
+        pub.description.toLowerCase().includes(query) ||
+        (pub.tags && pub.tags.some(
+          tag => tag.toLowerCase().includes(query)))
+      );
+      // Call render function with the container and filtered data
+      renderPublications(pubContainer, filteredPublications);
+    }); 
+
+    // Awards card filtering
+    awaSearchInput.addEventListener("input", function (e) {
+      const query = e.target.value.toLowerCase();
+      const filteredAwards = awards.filter(awa =>
+        awa.title.toLowerCase().includes(query) ||
+        awa.description.toLowerCase().includes(query) ||
+        (awa.tags && awa.tags.some(
+          tag => tag.toLowerCase().includes(query)))
+      );
+      // Call render function with the container and filtered data
+      renderAwards(awaContainer, filteredAwards);
+    });
+    
   });
 }

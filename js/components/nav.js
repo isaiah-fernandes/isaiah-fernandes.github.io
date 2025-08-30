@@ -100,7 +100,7 @@ export function renderSidebar() {
     return logAction(`${renderSidebar.name}()`, () => {
         const aside = document.createElement("aside");
         aside.id = "leftSidebar";
-        aside.className = "w-1/3 overflow-y-auto text-white p-3 flex flex-col pt-16 pb-0";
+        aside.className = "w-1/5 overflow-y-auto text-white p-3 flex flex-col pt-16 pb-0";
 
         // Header Section
         const header = document.createElement("header");
@@ -144,16 +144,24 @@ export function renderSidebar() {
                 text: "Experience", section: "section2"
             },
             {
-                id: "btn-section3", icon: "fas fa-code",
-                text: "Projects", section: "section3"
+                id: "btn-section3", icon: "fas fa-scroll",
+                text: "Publications", section: "section3"
+            },    
+            {
+                id: "btn-section4", icon: "fas fa-award",
+                text: "Achievements", section: "section4"
+            },  
+            {
+                id: "btn-section5", icon: "fas fa-tools",
+                text: "Projects", section: "section5"
+            },                  
+            {
+                id: "btn-section6", icon: "fas fa-chart-bar",
+                text: "Skills", section: "section6"
             },
             {
-                id: "btn-section4", icon: "fas fa-chart-bar",
-                text: "Skills", section: "section4"
-            },
-            {
-                id: "btn-section5", icon: "fas fa-graduation-cap",
-                text: "Education", section: "section5"
+                id: "btn-section7", icon: "fas fa-graduation-cap",
+                text: "Education", section: "section7"
             },
             {
                 id: "btn-sectionTimeline", icon: "fas fa-stream",
