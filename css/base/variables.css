@@ -1,8 +1,8 @@
 /* Define CSS Variables for consistent design */
 :root {
     --primary-bg: rgb(9,3,4);
-    --accent-color: 560317ff;
-    --sub-accent-color: white;
+    --accent-color: rgb(86, 3, 23);
+    --sub-accent-color: rgb(126, 132, 137);
     /* Not working */
     --text-color: rgb(126, 132, 137);
     --card-bg: rgba(255, 255, 255, 0.02);
