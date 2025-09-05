@@ -341,13 +341,13 @@ const timelineData = [
     },
     {
         title: "Data Engineering",
-        period: "June 2024 - June 2024",
+        period: "May 2025 - June 2025",
         info: "Focusing on making small buisnesses more profitable.",
         year: "2024"
     },
     {
         title: "ML Engineering",
-        period: "June 2024 - June 2024",
+        period: "June 2025 - Sept 2025",
         info: "Optimizing engineering processes by in-cooperating AI.",
         year: "2024"
     }
