@@ -4,7 +4,7 @@
     --accent-color: rgb(86, 3, 23);
     --sub-accent-color: rgb(126, 132, 137);
     /* Not working */
-    --text-color: rgb(126, 132, 137);
+    --text-color: white;
     --card-bg: rgba(255, 255, 255, 0.02);
     --hover-bg: rgba(255, 255, 255, 0.1);
 }
