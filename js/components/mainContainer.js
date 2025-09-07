@@ -7,7 +7,7 @@ export function renderMainContent() {
   return logAction(`${renderMainContent.name}()`, () => {
     const main = document.createElement("main");
     main.id = "rightSection";
-    main.className = "w-4/5 overflow-y-auto p-3 h-full custom-scrollbar pt-16 pb-0";
+    main.className = "w-2/3 overflow-y-auto p-3 h-full custom-scrollbar pt-16 pb-0";
 
     // HERO (right column)
     const heroSection = document.createElement('section');

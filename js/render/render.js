@@ -95,7 +95,7 @@ export function renderApp() {
         const innerContainer = document.createElement("div");
         innerContainer.appendChild(spotlight);
         innerContainer.id = "mainContainer";
-        innerContainer.className = "w-full max-w-[88rem] h-full " +
+        innerContainer.className = "w-full max-w-[85rem] h-full " +
             "rounded-lg flex overflow-hidden gap-4";
 
         // Append sidebar and main content

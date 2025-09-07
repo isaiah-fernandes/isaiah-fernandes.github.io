@@ -100,7 +100,7 @@ export function renderSidebar() {
     return logAction(`${renderSidebar.name}()`, () => {
         const aside = document.createElement("aside");
         aside.id = "leftSidebar";
-        aside.className = "w-1/5 overflow-y-auto text-white p-3 flex flex-col pt-16 pb-0";
+        aside.className = "w-1/3 overflow-y-auto text-white p-3 flex flex-col pt-16 pb-0";
 
         // Header Section
         const header = document.createElement("header");
@@ -108,7 +108,8 @@ export function renderSidebar() {
 
         const h2 = document.createElement("h2");
         h2.id = "siteName";
-        h2.className = "text-5xl font-extrabold dark:text-white";
+        h2.className = "text-5xl font-extrabold dark:text-white text-right";
+
         header.appendChild(h2);
 
         header.appendChild(document.createElement("br"));

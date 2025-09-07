@@ -41,8 +41,128 @@ const siteData = {
     }
 };
 
-// Experience data
+
 const experiences = [
+    {
+        type: "experience-company",
+        link: "https://resolvetech.com/",
+        period: "June 2025 - Present",
+        title: "Resolve Tech Solutions",
+        roles: [
+            {
+                title: "AI Machine Learning Engineer",
+                period: "June 2025 - Present",
+                description: [
+            "Collaborated with RTS to develop and deploy AI solutions, in cooperating Machine Learning to address engineering problems. Applying machine learning models to real-world databases, streamlining, and optimizing system operational workflows." ,
+            "Designed projects integrating AI into engineering tasks, enabling predictive analytics, automation in systems. Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches.",
+                ],
+            },
+            // {
+            //     title: "Software Engineer",
+            //     period: "Jan 2024 - Apr 2025",
+            //     description: [
+            //         "Working on Performance Models Productization team which handles external releases to various partners.",
+            //         "Optimizing AWS infrastructure using various tools.",
+            //     ]
+            // },
+        ],
+        tags: [
+            "✨ AWS Services",
+            "✨ AWS Bedrock",
+            "✨ AWS Lambda",
+            "✨ Python",
+            "✨ AWS Sagamaker",
+            "✨ AWS RDS"
+        ]
+    },
+    {
+        type: "experience-company",
+        link: "https://barnettenterprisegroup.com/",
+        period: "May 2025 - June 2025",
+        title: "Barnett Enterprise Group",
+        roles: [
+            {
+                title: "Data Engineer",
+                period: "May 2025 - June 2025",
+                description: [
+
+                ]
+            }
+        ],
+        tags: [
+
+        ]
+    },
+    {
+        type: "experience-company",
+        link: "https://engineering.tamu.edu/mtde/index.html",
+        period: "Nov 2024 - May 2025",
+        title: "Texas A&M University - MTDE",
+        roles: [
+            {
+                title: "Subsea Processing Engineering Analyst",
+                period: "Nov 2024 - May 2025",
+                description:[
+                    "Lead research initiatives to advance subsea processing, boosting, flowline operability, and production operations through experiments and simulations",
+                    "Using engineering-specific tools and methodologies for research and reports." ,
+                    "Collaborated with teams to draft research proposals, technical reports, ensuring data collection and interpretation to publish findings while conducting literature reviews to align objectives with innovative solutions." ,
+        ]}
+        ],
+        tags: [
+            "✨ OLGA",
+            "✨ Orca Flex",
+            "✨ ANSYS",
+            "✨ Fusion 360",
+        ]
+    },
+    {
+        type: "experience-company",
+        link: "",
+        period: "Aug 2020 - May 2021",
+        title: "Madgear Motorsports",
+        roles: [
+            {
+                title: "Co-Head of Sponsorship",
+                period: "Aug 2020 - May 2021",
+                description: [
+                    "Collaborated in designing, fabricating, and testing an off-road vehicle for SAE BAJA INDIA using SOLIDWORKS and ANSYS. " ,
+                    "Optimizing reliability and performance like 10% weight reduction done through in-house fabrication and testing.   " ,
+                    "Secured financial funding and material support by fundraising and sponsorships by building relationships with industries. " ,
+                    "Oversaw finance, ensuring smooth team operations and adherence to timelines while fostering industry partnerships. ",
+                ]
+            }
+        ],
+        tags: [
+            "✨ DS - SOLIDWORKS  ",
+            "✨ Ansys",
+            "✨ Fusion 360",
+        ]
+    },
+    {
+        type: "experience-company",
+        link: "",
+        period: "Aug 2019 - May 2020",
+        title: "DBIT Event (Colosseum)",
+        roles: [
+            {
+                title: "Co-Head of Informal Events",
+                period: "Aug 2019 - May 2020",
+                description: [
+                    "Led strategic planning, resource management, and coordinating teams, overseeing procurement, logistics, and approvals while managing a team of 30 across multiple groups using Gantt charts to track progress, allocate budgets, and meet deadlines.  " ,
+                    "Synchronized cross-departmental efforts, resolved real-time issues, and handled negotiations for deliverables.   " ,
+                    "Conducted risk assessments, contingency planning, to ensure client satisfaction and drive process improvements based on feedback analysis.  " ,
+                ]
+            }
+        ],
+        tags: [
+            "✨ MS - Projects",
+        ]
+    }
+];
+
+
+// Experience data
+/*const experiences = [
     {
         type: "experience",
         link: "https://resolvetech.com/",
@@ -125,6 +245,7 @@ const experiences = [
         ]
     },
 ];
+*/
 
 // Project data
 const projects = [
@@ -353,7 +474,7 @@ const timelineData = [
     }
 ];
 
-// Education data
+/// Education data
 const educations = [
     {
         type: "education",
