@@ -269,7 +269,7 @@ const projects = [
         type: "project",
         link:
             "",
-        period: "June 2025 - August 2025",
+        period: "June 2025 - Aug 2025",
         title: "Financial Executive Chatbot",
         description:
             "Built an AI-driven chatbot enabling executives to query financial insights across multiple structured categories across their entire database.",

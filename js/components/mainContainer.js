@@ -66,7 +66,7 @@ export function renderMainContent() {
     awaSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
     awaSection.innerHTML = `
       <br>
-      <input type="text" id="awardSearch" placeholder="Search awards..." class
+      <input type="text" id="awardSearch" placeholder="Search achievements..." class
       ="fancy-search mb-4" />
       <div class="space-y-4 w-full" id="awardsContainer"></div>
     `;

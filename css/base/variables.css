@@ -1,6 +1,6 @@
 /* Define CSS Variables for consistent design */
 :root {
-    --primary-bg: rgb(9,3,4);
+    --primary-bg: rgb(4,12,23);
     --accent-color: rgb(86, 3, 23);
     --sub-accent-color: rgb(126, 132, 137);
     /* Not working */
