@@ -24,7 +24,7 @@
 
 /* Light mode global overrides */
 body.light {
-    background-color: rgb(213,184,147);
+    background-color: #f9fbfd;
     color: #3171a2;
 }
 
