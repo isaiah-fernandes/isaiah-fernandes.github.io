@@ -53,7 +53,7 @@ const experiences = [
                 title: "AI Machine Learning Engineer",
                 period: "June 2025 - Present",
                 description: [
-                    "Collaborated with RTS to design and deploy AI solutions, applying machine learning to engineering challenges. Developed projects that integrated predictive analytics and automation into operational workflows, streamlining processes. Bridged engineering and AI by creating data-driven solutions, enabling innovation and technical advancement across disciplines."
+                    "Collaborated with RTS to design and deploy AI solutions, applying machine learning to engineering problems. Developed projects that integrated predictive analytics and automation into operational workflows, streamlining processes. Bridged engineering and AI by creating data-driven solutions, enabling innovation and technical advancement across disciplines."
                 ],
             },
             // {
@@ -175,7 +175,7 @@ const certifications = [
         period: "Aug 2022 - May 2024",
         title: "Texas A&M University - College Station",
         description:
-            "Engineering Project Management Certification",
+            "Engineering Project Management Certificate",
         tags: [
             "Project Implementation",
             "Petroleum Project Evaluation and Management", 
