@@ -104,7 +104,7 @@ const experiences = [
                 title: "Subsea Processing Engineering Analyst",
                 period: "Nov 2024 - May 2025",
                 description:[
-                    "Collaborated with Texas A&M Engineering faculty and research teams on subsea processing, boosting, flow assurance, and production operations. Executed controlled experiments, computational simulations, and quantitative data analysis using engineering-specific methodologies. Performed technical reviews to assess current research gaps and support proposal development. Analyzed data, compiled results into technical reports, documentation, and manuscripts. Contributed to problem-solving and milestone achievement through validated findings, optimized project outcomes, and driving innovations in subsea engineering."
+                    "Teamed up with Texas A&M Engineering faculty and research teams on subsea processing, boosting, flow assurance, and production operations. Executed controlled experiments, computational simulations, and quantitative data analysis using engineering-specific methodologies. Performed technical reviews to assess current research gaps and support proposal development. Analyzed data, compiled results into technical reports, documentation, and manuscripts. Contributed to problem-solving and milestone achievement through validated findings, optimized project outcomes, and driving innovations in subsea engineering."
         ]}
         ],
         tags: [
@@ -130,7 +130,7 @@ const experiences = [
                 title: "Co-Head of Sponsorship",
                 period: "Aug 2020 - May 2021",
                 description: [
-                    "Collaborated on designing, fabricating, and testing an off-road vehicle for the SAE BAJA competition. Applying SolidWorks for 3D modeling and ANSYS for stress, strain, and durability analysis of critical components. Executed in-house fabrication through welding, cutting, and machining of the frame, suspension, and drivetrain. Conducted rigorous performance, endurance, and reliability testing. Managed fundraising, sponsorships, and industry relations to secure financial and material support. Oversaw budgeting, logistics, and documentation, ensuring smooth operations, adherence to timelines, and effective team coordination to achieve competition objectives.",
+                    "Engaged in designing, fabricating, and testing an off-road vehicle for the SAE BAJA competition. Applying SolidWorks for 3D modeling and ANSYS for stress, strain, and durability analysis of critical components. Executed in-house fabrication through welding, cutting, and machining of the frame, suspension, and drivetrain. Conducted rigorous performance, endurance, and reliability testing. Managed fundraising, sponsorships, and industry relations to secure financial and material support. Oversaw budgeting, logistics, and documentation, ensuring smooth operations, adherence to timelines, and effective team coordination to achieve competition objectives.",
                 ]
             }
         ],
