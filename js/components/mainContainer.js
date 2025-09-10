@@ -26,6 +26,15 @@ export function renderMainContent() {
     heroSection.appendChild(img);
     main.prepend(heroSection);
 
+    // Apply inversion when theme is light
+    const applyThemeFilter = () => {
+      if (document.body.classList.contains('light-theme')) {
+      img.style.filter = 'invert(1)';
+    } else {
+        img.style.filter = 'none';
+    }
+    };
+
     // About Section
     const aboutSection = document.createElement("section");
     aboutSection.id = "section1";
@@ -48,17 +57,17 @@ export function renderMainContent() {
     `;
     main.appendChild(expSection);
 
-    //Publications Section
-    const pubSection = document.createElement("section");
-    pubSection.id = "section3";
-    pubSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
-    pubSection.innerHTML = `
+    //Certifications Section
+    const cerSection = document.createElement("section");
+    cerSection.id = "section3";
+    cerSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
+    cerSection.innerHTML = `
       <br>
-      <input type="text" id="publicationSearch" placeholder="Search publications..." class
+      <input type="text" id="certificationSearch" placeholder="Search ceritfications..." class
       ="fancy-search mb-4" />
-      <div class="space-y-4 w-full" id="publicationsContainer"></div>
+      <div class="space-y-4 w-full" id="certificationsContainer"></div>
     `;
-    main.appendChild(pubSection);
+    main.appendChild(cerSection);
 
     // Awards Section
     const awaSection = document.createElement("section");
@@ -72,9 +81,19 @@ export function renderMainContent() {
     `;
     main.appendChild(awaSection);
 
+    // Education Section
+    const eduSection = document.createElement("section");
+    eduSection.id = "section5";
+    eduSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
+    eduSection.innerHTML = `
+      <br>
+      <div class="space-y-4 w-full" id="eduContainer"></div>
+    `;
+    main.appendChild(eduSection);    
+
     // Projects Section
     const projSection = document.createElement("section");
-    projSection.id = "section5";
+    projSection.id = "section6";
     projSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
     projSection.innerHTML = `
       <br>
@@ -86,23 +105,13 @@ export function renderMainContent() {
     
     // Skills Section
     const skillsSection = document.createElement("section");
-    skillsSection.id = "section6";
+    skillsSection.id = "section7";
     skillsSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
     skillsSection.innerHTML = `
       <br>
       <div class="space-y-4 w-full" id="skillsContainer"></div>
     `;
     main.appendChild(skillsSection);
-
-    // Education Section
-    const eduSection = document.createElement("section");
-    eduSection.id = "section7";
-    eduSection.className = "fade-in mb-10 p-3 border-t border-gray-300 mt-4";
-    eduSection.innerHTML = `
-      <br>
-      <div class="space-y-4 w-full" id="eduContainer"></div>
-    `;
-    main.appendChild(eduSection);
 
     // Timeline Section
     const timelineSection = document.createElement("section");

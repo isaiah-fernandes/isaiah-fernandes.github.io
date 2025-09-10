@@ -99,6 +99,7 @@ function renderDetailedCard(item) {
     </a>
   `;
 }
+
 // --- DATE UTILITIES ---------------------------------------------------------
 const MONTHS_3 = {
   Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,

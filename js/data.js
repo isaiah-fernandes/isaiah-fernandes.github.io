@@ -26,9 +26,9 @@ const siteData = {
 
         "I’m someone who’s curious, creative, and always learning or exploring something new. With a passion for optimizing things, I’m always down to learn and try new things. This space is where I share a bit of what I do, what I have done, what I'm working on, and things that inspire me. Feel free to poke around!",
 
-        "I’m just a person trying to make sense of the world through engineering: by building, experimenting, and occasionally breaking things. This site is a mix of experiments, projects, and thoughts. I enjoy taking on projects, solving problems, and picking up new things all while i figure out how stuff works. I the kind of guy who would figure things out as we go about the project. ",
+        "I’m just a person trying to make sense of the world through engineering: by building, experimenting, and occasionally breaking things. This site is a mix of experiments, projects, and thoughts. I enjoy taking on projects, solving problems, and picking up new things all while I figure out how stuff works. I the kind of guy who would figure things out as we go about the project. ",
 
-        "I believe engineering is a means to an end. My goal is the end. So I guess, whatever it takes to get the job done. I also believe in hard work and always caughing up with technology with ever-ongoing learning to get there.",
+        "I believe engineering is a means to an end. My goal is the end. So I guess, whatever it takes to get the job done. I also believe in hard work and always catching up with technology with ever-ongoing learning to get there.",
 
         "I love tackling challenges, whether it’s with code, machines, or with duct tape. I mess around with ideas, trying to turn them into reality. Chasing projects that start with “what if…” that somehow turn into projects that keep me up at 2am. I built this site to document my journey, share things about me, and maybe connect with folks who get excited about the same stuff.",
 
@@ -53,8 +53,7 @@ const experiences = [
                 title: "AI Machine Learning Engineer",
                 period: "June 2025 - Present",
                 description: [
-            "Collaborated with RTS to develop and deploy AI solutions, in cooperating Machine Learning to address engineering problems. Applying machine learning models to real-world databases, streamlining, and optimizing system operational workflows." ,
-            "Designed projects integrating AI into engineering tasks, enabling predictive analytics, automation in systems. Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches.",
+                    "Collaborated with RTS to design and deploy AI solutions, applying machine learning to engineering challenges. Developed projects that integrated predictive analytics and automation into operational workflows, streamlining processes. Bridged engineering and AI by creating data-driven solutions, enabling innovation and technical advancement across disciplines."
                 ],
             },
             // {
@@ -67,32 +66,34 @@ const experiences = [
             // },
         ],
         tags: [
-            "✨ AWS Services",
-            "✨ AWS Bedrock",
-            "✨ AWS Lambda",
-            "✨ Python",
-            "✨ AWS Sagamaker",
-            "✨ AWS RDS"
+            "✨ Project leading",
+            "✨ Project Collaboration",
+            "✨ Software Development Engineering",
+            "AWS Services",
+            "AWS-Bedrock",
+            "AWS-Lambda",
+            "AWS-databases",
+            "Python"
         ]
     },
-    {
-        type: "experience-company",
-        link: "https://barnettenterprisegroup.com/",
-        period: "May 2025 - June 2025",
-        title: "Barnett Enterprise Group",
-        roles: [
-            {
-                title: "Data Engineer",
-                period: "May 2025 - June 2025",
-                description: [
+    // {
+    //     type: "experience-company",
+    //     link: "https://barnettenterprisegroup.com/",
+    //     period: "May 2025 - June 2025",
+    //     title: "Barnett Enterprise Group",
+    //     roles: [
+    //         {
+    //             title: "Data Engineer",
+    //             period: "May 2025 - June 2025",
+    //             description: [
 
-                ]
-            }
-        ],
-        tags: [
+    //             ]
+    //         }
+    //     ],
+    //     tags: [
 
-        ]
-    },
+    //     ]
+    // },
     {
         type: "experience-company",
         link: "https://engineering.tamu.edu/mtde/index.html",
@@ -103,16 +104,20 @@ const experiences = [
                 title: "Subsea Processing Engineering Analyst",
                 period: "Nov 2024 - May 2025",
                 description:[
-                    "Lead research initiatives to advance subsea processing, boosting, flowline operability, and production operations through experiments and simulations",
-                    "Using engineering-specific tools and methodologies for research and reports." ,
-                    "Collaborated with teams to draft research proposals, technical reports, ensuring data collection and interpretation to publish findings while conducting literature reviews to align objectives with innovative solutions." ,
+                    "Collaborated with Texas A&M Engineering faculty and research teams on subsea processing, boosting, flow assurance, and production operations. Executed controlled experiments, computational simulations, and quantitative data analysis using engineering-specific methodologies. Performed technical reviews to assess current research gaps and support proposal development. Analyzed data, compiled results into technical reports, documentation, and manuscripts. Contributed to problem-solving and milestone achievement through validated findings, optimized project outcomes, and driving innovations in subsea engineering."
         ]}
         ],
         tags: [
-            "✨ OLGA",
-            "✨ Orca Flex",
-            "✨ ANSYS",
-            "✨ Fusion 360",
+                "✨ Project leading", 
+                "✨ Project Collaboration", 
+                "✨ Subsea Engineering", 
+                "✨ Pipeline Engineering",  
+                "✨ Flow Assurance", 
+                "✨ R&D",
+                "OLGA", 
+                "Orca Flex", 
+                "ANSYS", 
+                "Fusion 360",
         ]
     },
     {
@@ -125,17 +130,20 @@ const experiences = [
                 title: "Co-Head of Sponsorship",
                 period: "Aug 2020 - May 2021",
                 description: [
-                    "Collaborated in designing, fabricating, and testing an off-road vehicle for SAE BAJA INDIA using SOLIDWORKS and ANSYS. " ,
-                    "Optimizing reliability and performance like 10% weight reduction done through in-house fabrication and testing.   " ,
-                    "Secured financial funding and material support by fundraising and sponsorships by building relationships with industries. " ,
-                    "Oversaw finance, ensuring smooth team operations and adherence to timelines while fostering industry partnerships. ",
+                    "Collaborated on designing, fabricating, and testing an off-road vehicle for the SAE BAJA competition. Applying SolidWorks for 3D modeling and ANSYS for stress, strain, and durability analysis of critical components. Executed in-house fabrication through welding, cutting, and machining of the frame, suspension, and drivetrain. Conducted rigorous performance, endurance, and reliability testing. Managed fundraising, sponsorships, and industry relations to secure financial and material support. Oversaw budgeting, logistics, and documentation, ensuring smooth operations, adherence to timelines, and effective team coordination to achieve competition objectives.",
                 ]
             }
         ],
         tags: [
-            "✨ DS - SOLIDWORKS  ",
-            "✨ Ansys",
-            "✨ Fusion 360",
+                "✨ Project Management",
+                "✨ Marketing Head",
+                "✨ Sponsorship lead",
+                "✨ Automotive engineering",
+                "✨ Design and Fabrication",
+                "✨CAD/CAM/CAE",
+                "SOLIDWORKS",
+                "Ansys",
+                "Fusion 360"
         ]
     },
     {
@@ -148,136 +156,48 @@ const experiences = [
                 title: "Co-Head of Informal Events",
                 period: "Aug 2019 - May 2020",
                 description: [
-                    "Led strategic planning, resource management, and coordinating teams, overseeing procurement, logistics, and approvals while managing a team of 30 across multiple groups using Gantt charts to track progress, allocate budgets, and meet deadlines.  " ,
-                    "Synchronized cross-departmental efforts, resolved real-time issues, and handled negotiations for deliverables.   " ,
-                    "Conducted risk assessments, contingency planning, to ensure client satisfaction and drive process improvements based on feedback analysis.  " ,
+                    "Directed end-to-end event operations by integrating project management and supply chain methodologies. Coordinated 30 team members across multiple functions, managing timelines, budgets, and resource allocation with tools like Gantt charts, and executed cost/resource allocation. Oversaw procurement, vendor negotiations, and logistics for transportation, storage, and on-site deployment of infrastructure and technical equipment. Implemented risk assessment frameworks, contingency planning, and progress tracking to ensure deadlines and budgets were met. Documented planning, execution, and post-event reporting to optimize operational efficiency and future operations." ,
                 ]
             }
         ],
         tags: [
-            "✨ MS - Projects",
+            "✨ Project Management",
+            "✨ Project Engineering",
         ]
     }
 ];
-
-
-// Experience data
-/*const experiences = [
-    {
-        type: "experience",
-        link: "https://resolvetech.com/",
-        period: "June 2025 - Present",
-        title: "AI ML Engineer at RTS",
-        description:
-            "Collaborated with RTS to develop and deploy AI solutions, in cooperating Machine Learning to address engineering problems.  " +
-            "Applying machine learning models to real-world databases, streamlining, and optimizing system operational workflows.  " +
-            "Designed projects integrating AI into engineering tasks, enabling predictive analytics, automation in systems. " +
-            "Bridging the gap between engineering disciplines and AI, developing technical solutions through innovative data-driven approaches. .",
-        
-        tags: [
-            "✨ AWS Services",
-            "✨ AWS Bedrock",
-            "✨ AWS Lambda",
-            "✨ Python",
-            "✨ AWS Sagamaker",
-            "✨ AWS RDS"
-        ]
-    },
-    {
-        type: "experience",
-        link: "https://barnettenterprisegroup.com/",
-        period: "May 2025 - June 2025",
-        title: "Data Engineer at Barnett Enterprise Group",
-        description:
-            "Worked on automating AWS pipeline, by managing AMIs updates, " +
-            "EC2 instances, and EBS Volumes. Accomplished automation of " +
-            "complex manually repetitive tasks using a variety of tools " +
-            "and improved overall operational efficiency.",
-        tags: [
-            "✨ AWS",
-            "✨ Python",
-            "✨ Boto3"
-        ]
-    },
-    {
-        type: "experience",
-        link: "https://engineering.tamu.edu/mtde/index.html",
-        period: "Nov 2024 - May 2025",
-        title: "Subsea Processing Engineering Analyst at Texas A&M ",
-        description:
-            "ALead research initiatives to advance subsea processing, boosting, flowline operability, and production operations through experiments and simulations " +
-            "Using engineering-specific tools and methodologies for research and reports.   " +
-            "Collaborated with teams to draft research proposals, technical reports, ensuring data collection and interpretation to publish findings while conducting literature reviews to align objectives with innovative solutions.   " ,
-        tags: [
-            "✨ OLGA",
-            "✨ Orca Flex",
-            "✨ ANSYS",
-            "✨ Fusion 360",
-        ]
-    },
-    {
-        type: "experience",
-        link: "",
-        period: "Aug 2020 - May 2021",
-        title: "Co-Head of Sponsorship - Madgear Motorsports ",
-        description:
-            "Collaborated in designing, fabricating, and testing an off-road vehicle for SAE BAJA INDIA using SOLIDWORKS and ANSYS. " +
-            "Optimizing reliability and performance like 10% weight reduction done through in-house fabrication and testing.   " +
-            "Secured financial funding and material support by fundraising and sponsorships by building relationships with industries. " +
-            "Oversaw finance, ensuring smooth team operations and adherence to timelines while fostering industry partnerships. ",
-        tags: [
-            "✨ DS - SOLIDWORKS  ",
-            "✨ Ansys",
-            "✨ Fusion 360",
-        ]
-    },
-    {
-        type: "experience",
-        link: "",
-        period: "Aug 2019 - May 2020",
-        title: "Co-Head of Informal Events - DBIT Event (Colosseum)",
-        description:
-            "Led strategic planning, resource management, and coordinating teams, overseeing procurement, logistics, and approvals while managing a team of 30 across multiple groups using Gantt charts to track progress, allocate budgets, and meet deadlines.  " +
-            "Synchronized cross-departmental efforts, resolved real-time issues, and handled negotiations for deliverables.   " +
-            "Conducted risk assessments, contingency planning, to ensure client satisfaction and drive process improvements based on feedback analysis.  " ,
-        tags: [
-            "✨ MS - Projects",
-        ]
-    },
-];
-*/
 
 // Project data
 const projects = [
     {
         type: "project",
         link:
-            "",
+            "https://cbre-miq-ui-rts-resolvetech.com/",
         period: "July 2025 - Sept 2025",
         title: "Financial Data Reporting Automation",
         description:
             "Developed AI agents to generate, verify, compile data, increase accuracy, eliminating review, and automated fiscal quarters data workflows.",
         tags: [
-            "Machine Learning",
-            "Agentic AI",
-            "Project leading",
-            "✨ Python",
-            "✨ AWS",
+            "✨ Machine Learning",
+            "✨ Agentic AI",
+            "✨ Project leading",
+            "Python",
+            "AWS",
         ]
     },
     {
         type: "project",
         link:
-            "",
+            "https://cbre-rts.com/dashboard",
         period: "June 2025 - Aug 2025",
         title: "Financial Executive Chatbot",
         description:
             "Built an AI-driven chatbot enabling executives to query financial insights across multiple structured categories across their entire database.",
         tags: [
-            "Machine Learning",
-            "Agentic AI",
-            "✨ Python",
-            "✨ AWS",
+            "✨ Machine Learning",
+            "✨ Agentic AI",
+            "Python",
+            "AWS",
         ]
     },
     {
@@ -287,7 +207,7 @@ const projects = [
         title: "Petroleum Project Evaluation",
         description:
             "Determining reserves, forecasted production, and modeled cash flows to evaluate project profitability and guide investment decisions effectively",
-        tags: ["Reserves Evaluation", "Production Forecasting", "Cash Flow Modeling" , "Well Economic", "Economic Indicators","✨ Excel"]
+        tags: ["✨ Reserves Evaluation", "✨ Production Forecasting", "✨ Cash Flow Modeling" , "✨ ell Economic", "✨ Economic Indicators","Excel"]
     },
     {
         type: "project",
@@ -296,8 +216,8 @@ const projects = [
         period: "Jan 2023 - May 2023",
         title: "Design of a Pipeline",
         description:
-            "Design of a offshore pipeline mechanically as per API 1111 ",
-        tags: ["Wall Thickness Design", "Stress & Buckling Analysis" ,"Thermal & Expansion Design" ,"Material Selection", "✨ Orca Flex"]
+            "Design of a offshore pipeline mechanically as per API 1111",
+        tags: ["✨ Wall Thickness Design", "✨ Stress & Buckling Analysis" ,"✨ Thermal & Expansion Design" ,"✨ Material Selection", "Orca Flex"]
     },
     {
         type: "project",
@@ -307,7 +227,10 @@ const projects = [
         title: "Kyle offshore field development",
         description:
             "Prefeed Feed project on a potential Oil and Gas Endeavor.",
-        tags: ["Pre-FEED","","✨ Excel"]
+        tags: [
+            "✨ Pre-FEED", "✨ Design", "✨ Project Planning", "✨ Project Scheduling",
+		    "Excel",		
+        ]
     },
     {
         type: "project",
@@ -316,8 +239,11 @@ const projects = [
         period: "Jan 2023 - May 2023",
         title: "Flow Assurance",
         description:
-            "Design of a pipeline to combat hydrates and assphaltenes during shut ins and blow downs.",
-        tags: [""]
+            "Design of a pipeline to combat hydrates and asphaltenes during shut ins and blow downs.",
+        tags: [
+            "✨ Hydrates Mitigation", "✨ Simulation Engineering", "✨ Pipeline Engineering",
+            "OLGA", 
+        ]
     },
     {
         type: "project",
@@ -327,32 +253,63 @@ const projects = [
         title: "Mechanical Robo",
         description:
             "Design and Fabrication of a robot to assist with solar panels peak functionality.",
-        tags: [""]
+        tags: [
+            "✨ Mechanical Design", "✨ CAD/CAM/CAE", "✨ Simulation Engineering",
+            "Fusion 360", "Solidworks", "Ansys-Mechanical", "Ansys-Fluent"
+        ]
     },
     {
         type: "project",
         link:
             "",
-        period: "Jan 2019 - May 2019 ",
+        period: "Jan 2019 - May 2019",
         title: "Design of a Visco Meter",
         description:
             "Design and Fabrication of a viscometer to measure the viscous index of various liquids.",
-        tags: [""]
+        tags: [
+            "✨ Design", "✨ Fabrication", "✨ Construction",
+        ]
     }
 ];
 
-const publications = [
+const certifications = [
     {
-        type: "publication",
+        type: "certificate",
         link:
-            "https://doi.org/10.4043/35905-MS",
-        period: "May 2025",
-        title: "OnePetro OTC-35905-MS ",
+            "",
+        period: "Aug 2022 - May 2024",
+        title: "Texas A&M University - College Station",
         description:
-            "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks Using Subsea Multiphase Pumping: To Evaluate the production optimization of tiebacks using multiphase pumps and to analyze the added production of oil beyond the natural production.",
+            "Engineering Project Management Certification",
         tags: [
-            "✨Lead Author",
-            "✨Presentor"
+            "Project Implementation",
+            "Petroleum Project Evaluation and Management", 
+            "Engineering Economy,",
+            "Project Management for Engineers",
+        ]
+    },
+    {
+        type: "certificate",
+        link:
+            "",
+        period: "2025 - Ongoing",
+        title: "Project Management Institute - PMI",
+        description:
+            "Certified Associate in Project Management [CAPM]",
+        tags: [
+
+        ]
+    },
+    {
+        type: "certificate",
+        link:
+            "",
+        period: "2020-2021",
+        title: "Official Autodesk Certified",
+        description:
+            "CAD/CAM/CAE for Mechanical Engineering",
+        tags: [
+                
         ]
     }
 ]
@@ -361,14 +318,27 @@ const awards = [
     {
         type: "award",
         link:
+            "https://doi.org/10.4043/35905-MS",
+        period: "May 2024 - May 2025",
+        title: "Publication: OnePetro OTC-35905-MS",
+        description:
+            "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks Using Subsea Multiphase Pumping: To Evaluate the production optimization of tiebacks using multiphase pumps and to analyze the added production of oil beyond the natural production.",
+        tags: [
+            "✨ Lead Author", "✨ Presenter", "✨ Research & Development", "✨ Simulation Engineering", 
+            "OLGA", "MS-Excel",
+        ]
+    },    
+    {
+        type: "award",
+        link:
             "",
         period: "Dec 2020",
-        title: "Developing Engineering Innovations",
+        title: "Achievement: Developing Engineering Innovations",
         description:
             "Achieved 2nd place in a Smart City Innovation Competition organized by the Entrepreneurship Development & Engineering Department for the design and implementation of a Porthole Detection and Automated Filling System.",
         tags: [
-            "✨Certificate of Merit",
-            "✨Ranked #2"
+            "✨ ertificate of Merit", "✨ Ranked #2", "✨ Entrepreneurship Engineering", 
+            "MS-Excel", "MS-Projects",
         ]
     }
 ]
@@ -483,8 +453,10 @@ const educations = [
         period: "Aug 2022 - May 2024",
         title: "Texas A&M University - College Station",
         description:
-            "Master of Engineering with a specilization in Subsea oil and Gas Engineering.",
-        tags: []
+            "Master of Engineering with a specialization in Subsea oil and Gas Engineering.",
+        tags: [
+            "Subsea Eng Fundamentals", "Oil and Gas Hardware", "Umbilical Control Systems", "Flowline Design", "Riser Design", "Pipeline Design", "Flow Assurance and Operability", "Production Operations", "Offshore Construction and Installations",
+        ]
     },
     {
         type: "education",
@@ -494,6 +466,8 @@ const educations = [
         title: "Mumbai University",
         description:
             "Bachelor of Engineering - Mechanical Engineering.",
-        tags: []
+        tags: [
+            "Mechanics", "CAD/CAM/CAE", "Thermodynamics", "Fluid Mechanics", "Machine Design", "Power Engineering", "Finite Element Analysis", "Internal Combustion Engines", "HVAC", "Heat Transfer", "Dynamic of Machinery", "Kinematics of Machinery", "Material Engineering", "Pumps & Compressors",	
+        ]
     },
 ]

@@ -28,8 +28,8 @@ export function renderProjects(container, data) {
     });
 }
 
-export function renderPublications(container, data) {
-    logAction(`${renderPublications.name}()`, () => {
+export function renderCertifications(container, data) {
+    logAction(`${renderCertifications.name}()`, () => {
         container.innerHTML = "";
         data.forEach(item => {
             container.insertAdjacentHTML("beforeend", createCard(item));
