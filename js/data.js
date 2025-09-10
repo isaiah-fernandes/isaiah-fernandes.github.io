@@ -171,7 +171,7 @@ const certifications = [
     {
         type: "certificate",
         link:
-            "",
+            "https://engineering.tamu.edu/academics/certificates/engineering-project-management-certificate-program.html",
         period: "Aug 2022 - May 2024",
         title: "Texas A&M University - College Station",
         description:
@@ -186,7 +186,7 @@ const certifications = [
     {
         type: "certificate",
         link:
-            "",
+            "https://www.pmi.org/certifications/certified-associate-capm",
         period: "2025 - Ongoing",
         title: "Project Management Institute - PMI",
         description:
@@ -198,7 +198,7 @@ const certifications = [
     {
         type: "certificate",
         link:
-            "",
+            "https://www.autodesk.com/",
         period: "2020-2021",
         title: "Official Autodesk Certified",
         description:
@@ -210,14 +210,14 @@ const certifications = [
 ]
 
 const awards = [
-    {
+        {
         type: "award",
         link:
-            "https://doi.org/10.4043/35905-MS",
-        period: "May 2024 - May 2025",
+            "https://onepetro.org/OTCONF/proceedings-abstract/25OTC/25OTC/D041S056R004/662701",
+        period: "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks using Subsea Multiphase Pumping",
         title: "Publication: OnePetro OTC-35905-MS",
         description:
-            "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks Using Subsea Multiphase Pumping: To Evaluate the production optimization of tiebacks using multiphase pumps and to analyze the added production of oil beyond the natural production.",
+            "The objective of this paper is to optimize oil production of deepwater tiebacks using subsea processing such as multiphase pumping to improve recovery and accelerate production. The Helico-Axial multiphase pumps have been used to evaluate the added production of oil beyond natural production after the early life of the two selected long and short distance tiebacks typical to the deepwater environment using a multiphase flow simulator.",
         tags: [
             "✨ Lead Author", "✨ Presenter", "✨ Research & Development", "✨ Simulation Engineering", 
             "OLGA", "MS-Excel",
@@ -232,7 +232,7 @@ const awards = [
         description:
             "Achieved 2nd place in a Smart City Innovation Competition organized by the Entrepreneurship Development & Engineering Department for the design and implementation of a Porthole Detection and Automated Filling System.",
         tags: [
-            "✨ ertificate of Merit", "✨ Ranked #2", "✨ Entrepreneurship Engineering", 
+            "✨ Certificate of Merit", "✨ Ranked #2", "✨ Entrepreneurship Engineering", 
             "MS-Excel", "MS-Projects",
         ]
     }

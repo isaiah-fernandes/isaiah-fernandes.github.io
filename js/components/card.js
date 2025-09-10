@@ -18,7 +18,8 @@ function getMarkerIcon(type) {
   const icons = {
     experience: '<i class="fas fa-briefcase"></i>',
     project: '<i class="fas fa-code"></i>',
-    education: '<i class="fas fa-graduation-cap"></i>'
+    education: '<i class="fas fa-graduation-cap"></i>',
+    award: '<i class="fas fa-award"></i>'
   };
   return icons[type] || "";
 }
@@ -40,13 +41,16 @@ function renderDetailedCard(item) {
 
   // Conditional education logo support
   const isEducation = item.type === "education";
-  const logoSrc = item.logoUrl || (isEducation ? schoolIcon(item.link) : "");
+  const isAward = item.type === "award";
+  const isCertificate = item.type === "certificate";
+  const eduLike = isEducation || isAward || isCertificate; // education OR award use same layout
+  const logoSrc = item.logoUrl || (eduLike ? schoolIcon(item.link) : "");
   const logoImg = logoSrc
     ? `<img src="${logoSrc}" alt="" class="w-20 h-20 rounded-sm opacity-90 shrink-0" loading="lazy">`
     : "";
 
   // Title section: if education, show logo + title + arrow
-  const titleSection = isEducation
+  const titleSection = eduLike
     ? `
       <h3 class="text-lg font-bold text-gray-300 flex items-center gap-2">
         <span>${item.title}</span>
@@ -73,7 +77,7 @@ function renderDetailedCard(item) {
         </div>
       ` : ""}
       <div class="flex flex-col md:flex-row gap-1 items-start md:items-center">
-        ${!isEducation ? `
+        ${!eduLike ? `
           <div class="text-gray-300 font-semibold w-full md:w-1/4">
             ${item.period || ""}
           </div>
