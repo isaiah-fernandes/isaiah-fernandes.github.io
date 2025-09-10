@@ -167,6 +167,77 @@ const experiences = [
     }
 ];
 
+const certifications = [
+    {
+        type: "certificate",
+        link:
+            "",
+        period: "Aug 2022 - May 2024",
+        title: "Texas A&M University - College Station",
+        description:
+            "Engineering Project Management Certification",
+        tags: [
+            "Project Implementation",
+            "Petroleum Project Evaluation and Management", 
+            "Engineering Economy,",
+            "Project Management for Engineers",
+        ]
+    },
+    {
+        type: "certificate",
+        link:
+            "",
+        period: "2025 - Ongoing",
+        title: "Project Management Institute - PMI",
+        description:
+            "Certified Associate in Project Management [CAPM]",
+        tags: [
+
+        ]
+    },
+    {
+        type: "certificate",
+        link:
+            "",
+        period: "2020-2021",
+        title: "Official Autodesk Certified",
+        description:
+            "CAD/CAM/CAE for Mechanical Engineering",
+        tags: [
+                
+        ]
+    }
+]
+
+const awards = [
+    {
+        type: "award",
+        link:
+            "https://doi.org/10.4043/35905-MS",
+        period: "May 2024 - May 2025",
+        title: "Publication: OnePetro OTC-35905-MS",
+        description:
+            "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks Using Subsea Multiphase Pumping: To Evaluate the production optimization of tiebacks using multiphase pumps and to analyze the added production of oil beyond the natural production.",
+        tags: [
+            "✨ Lead Author", "✨ Presenter", "✨ Research & Development", "✨ Simulation Engineering", 
+            "OLGA", "MS-Excel",
+        ]
+    },    
+    {
+        type: "award",
+        link:
+            "",
+        period: "Nov 2020 - Dec 2020",
+        title: "Achievement: Developing Engineering Innovations",
+        description:
+            "Achieved 2nd place in a Smart City Innovation Competition organized by the Entrepreneurship Development & Engineering Department for the design and implementation of a Porthole Detection and Automated Filling System.",
+        tags: [
+            "✨ ertificate of Merit", "✨ Ranked #2", "✨ Entrepreneurship Engineering", 
+            "MS-Excel", "MS-Projects",
+        ]
+    }
+]
+
 // Project data
 const projects = [
     {
@@ -271,77 +342,6 @@ const projects = [
         ]
     }
 ];
-
-const certifications = [
-    {
-        type: "certificate",
-        link:
-            "",
-        period: "Aug 2022 - May 2024",
-        title: "Texas A&M University - College Station",
-        description:
-            "Engineering Project Management Certification",
-        tags: [
-            "Project Implementation",
-            "Petroleum Project Evaluation and Management", 
-            "Engineering Economy,",
-            "Project Management for Engineers",
-        ]
-    },
-    {
-        type: "certificate",
-        link:
-            "",
-        period: "2025 - Ongoing",
-        title: "Project Management Institute - PMI",
-        description:
-            "Certified Associate in Project Management [CAPM]",
-        tags: [
-
-        ]
-    },
-    {
-        type: "certificate",
-        link:
-            "",
-        period: "2020-2021",
-        title: "Official Autodesk Certified",
-        description:
-            "CAD/CAM/CAE for Mechanical Engineering",
-        tags: [
-                
-        ]
-    }
-]
-
-const awards = [
-    {
-        type: "award",
-        link:
-            "https://doi.org/10.4043/35905-MS",
-        period: "May 2024 - May 2025",
-        title: "Publication: OnePetro OTC-35905-MS",
-        description:
-            "Application of a Multiphase Flow Simulator for Production Optimization of Tiebacks Using Subsea Multiphase Pumping: To Evaluate the production optimization of tiebacks using multiphase pumps and to analyze the added production of oil beyond the natural production.",
-        tags: [
-            "✨ Lead Author", "✨ Presenter", "✨ Research & Development", "✨ Simulation Engineering", 
-            "OLGA", "MS-Excel",
-        ]
-    },    
-    {
-        type: "award",
-        link:
-            "",
-        period: "Dec 2020",
-        title: "Achievement: Developing Engineering Innovations",
-        description:
-            "Achieved 2nd place in a Smart City Innovation Competition organized by the Entrepreneurship Development & Engineering Department for the design and implementation of a Porthole Detection and Automated Filling System.",
-        tags: [
-            "✨ ertificate of Merit", "✨ Ranked #2", "✨ Entrepreneurship Engineering", 
-            "MS-Excel", "MS-Projects",
-        ]
-    }
-]
 
 const skills = [
     {
