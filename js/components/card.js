@@ -39,22 +39,36 @@ function schoolIcon(link = "", size = 128) {
 function renderDetailedCard(item) {
   const markerIcon = getMarkerIcon(item.type);
 
-  // Conditional education logo support
   const isEducation = item.type === "education";
   const isAward = item.type === "award";
   const isCertificate = item.type === "certificate";
-  const eduLike = isEducation || isAward || isCertificate; // education OR award use same layout
-  const logoSrc = item.logoUrl || (eduLike ? schoolIcon(item.link) : "");
-  const logoImg = logoSrc
-    ? `<img src="${logoSrc}" alt="" class="w-20 h-20 rounded-sm opacity-90 shrink-0" loading="lazy">`
+  const eduLike = isEducation || isAward || isCertificate;
+
+  // Only try to derive a favicon if we actually have a link
+  const logoSrc = item.logoUrl || (eduLike && item.link ? schoolIcon(item.link) : "");
+
+  // Trophy fallback for AWARD when there is NO link and NO logo
+  const awardTrophyFallback = (isAward && !item.link && !logoSrc)
+    ? `
+      <div class="w-20 h-20 rounded-sm bg-white/5 ring-1 ring-white/10 grid place-items-center shrink-0">
+        <i class="fas fa-trophy text-5xl text-yellow-400/90" aria-hidden="true"></i>
+        <span class="sr-only">Award</span>
+      </div>
+    `
     : "";
 
-  // Title section: if education, show logo + title + arrow
+  const logoImg = logoSrc
+    ? `<img src="${logoSrc}" alt="" class="w-20 h-20 rounded-sm opacity-90 shrink-0" loading="lazy">`
+    : awardTrophyFallback;
+
+  // Only show arrow if there is a link
+  const maybeArrow = item.link ? arrowIcon : "";
+
   const titleSection = eduLike
     ? `
       <h3 class="text-lg font-bold text-gray-300 flex items-center gap-2">
         <span>${item.title}</span>
-        ${arrowIcon}
+        ${maybeArrow}
       </h3>
       <div class="text-gray-300 font-semibold">
         ${item.period || ""}
@@ -63,12 +77,18 @@ function renderDetailedCard(item) {
     : `
       <h3 class="text-lg font-bold text-gray-300 flex items-center gap-1">
         ${item.title}
-        ${arrowIcon}
+        ${maybeArrow}
       </h3>
     `;
 
+  // Use <a> only if a link exists; otherwise use a non-link block wrapper
+  const wrapperStart = item.link
+    ? `<a href="${item.link}" target="_blank" class="card group block relative">`
+    : `<div class="card group relative">`;
+  const wrapperEnd = item.link ? `</a>` : `</div>`;
+
   return `
-    <a href="${item.link}" target="_blank" class="card group block relative">
+    ${wrapperStart}
       ${markerIcon ? `
         <div class="absolute top-2 right-2">
           <span class="text-white text-xs uppercase px-2 py-1 rounded">
@@ -76,6 +96,7 @@ function renderDetailedCard(item) {
           </span>
         </div>
       ` : ""}
+
       <div class="flex flex-col md:flex-row gap-1 items-start md:items-center">
         ${!eduLike ? `
           <div class="text-gray-300 font-semibold w-full md:w-1/4">
@@ -86,6 +107,7 @@ function renderDetailedCard(item) {
             ${logoImg}
           </div>
         `}
+
         <div class="w-full md:w-3/4">
           ${titleSection}
           <p class="text-gray-400 mt-3" style="text-align: justify;">
@@ -100,7 +122,7 @@ function renderDetailedCard(item) {
           </div>
         </div>
       </div>
-    </a>
+    ${wrapperEnd}
   `;
 }
 
