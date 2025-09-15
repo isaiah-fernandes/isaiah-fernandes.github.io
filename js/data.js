@@ -204,7 +204,10 @@ const certifications = [
         description:
             "CAD/CAM/CAE for Mechanical Engineering",
         tags: [
-                
+                "Introduction to Mechanical Engineering Design and Manufacturing",
+                "CAM and Design Manufacturing",
+                "Simulation Analysis",
+                "Modeling and Design",
         ]
     }
 ]
