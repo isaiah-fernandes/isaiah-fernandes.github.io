@@ -51,7 +51,7 @@ const experiences = [
         roles: [
             {
                 title: "AI Machine Learning Engineer",
-                period: "June 2025 - Present",
+                period: "June 2025 - Sept 2025",
                 description: [
                     "Collaborated with RTS to design and deploy AI solutions, applying machine learning to engineering problems. Developed projects that integrated predictive analytics and automation into operational workflows, streamlining processes. Bridged engineering and AI by creating data-driven solutions, enabling innovation and technical advancement across disciplines."
                 ],
@@ -231,7 +231,7 @@ const awards = [
         link:
             "",
         period: "Nov 2020 - Dec 2020",
-        title: "Achievement: Developing Engineering Innovations",
+        title: "Awarded: Developing Engineering Innovations",
         description:
             "Achieved 2nd place in a Smart City Innovation Competition organized by the Entrepreneurship Development & Engineering Department for the design and implementation of a Porthole Detection and Automated Filling System.",
         tags: [

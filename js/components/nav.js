@@ -202,19 +202,21 @@ export function renderSidebar() {
         // nav.appendChild(coverletterLink);
 
         // References Link
-        const ReferenceLink = document.createElement("a");
-        ReferenceLink.className = "nav-button";
-        ReferenceLink.id = "btn-Reference";
-        ReferenceLink.href = "Reference.pdf";
-        ReferenceLink.target = "_blank";
-        ReferenceLink.setAttribute("aria-label", "ReferenceLink");
-        ReferenceLink.setAttribute("title", "View ReferenceLink");
-        ReferenceLink.innerHTML = `<i class="fas fa-file-alt"></i> References`;
-        nav.appendChild(ReferenceLink);
-
+        // const ReferenceLink = document.createElement("a");
+        // ReferenceLink.className = "nav-button";
+        // ReferenceLink.id = "btn-Reference";
+        // ReferenceLink.href = "Reference.pdf";
+        // ReferenceLink.target = "_blank";
+        // ReferenceLink.setAttribute("aria-label", "ReferenceLink");
+        // ReferenceLink.setAttribute("title", "View ReferenceLink");
+        // ReferenceLink.innerHTML = `<i class="fas fa-file-alt"></i> References`;
+        // nav.appendChild(ReferenceLink);
+        
         aside.appendChild(nav);
 
         // Social Icons Container
+
+        
         const socialContainer = document.createElement("div");
         socialContainer.id = "socialContainer";
         socialContainer.className = "my-4 social-icons";
